@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="utf-8">
+<title>Inserir Empresa</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body class="text-center">
+<script src="scripts/validadorE.js"></script>
+
+ <header>
+    <br> <br> <br>
+	<h1 class="h3 mb-3 fw-normal">Inserir Empresa</h1>
+</header>
+
+    <br>
+  
+    <main>
+	    <form name="frmEmpresa" action="inserirE">
+	    
+            <div class="form-floating">
+               <input type="text" name="cnpj" placeholder="CNPJ">
+            </div>
+           	<br>
+   
+        	<div class="form-floating">
+        		<input type="text" name="localidade" placeholder="Localidade">
+            </div>
+           	<br>
+   
+        	<div class="form-floating">
+        		<input type="text" name="proprietario" placeholder="Proprietario">
+        	</div>
+           	<br>
+   
+        	<div class="form-floating">
+        		<input type="text" name="login" placeholder="Login">
+        	</div>
+           	<br>
+   
+        	<div class="form-floating">
+        	<input type="text" name="senha" placeholder="Senha"></div>
+           	<br>
+   
+		<input type="button" class="btn btn-primary" value="Inserir" onclick="validarE()">
+	</form>
+	
+    <br> <br>
+    
+ </main>
+ 
+   <a href="Cadastro.html">Voltar para a tela de Cadastro</a>
+   <br>
+   <p class="mt-5 mb-3 text-muted">&copy; 2022 - Viagens</p>
+   
+</body>
+</html>
